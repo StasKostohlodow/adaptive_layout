@@ -157,6 +157,15 @@ article {
     border: none;
 }
 
+.burger-close{
+    width: 39px;
+}
+
+.burger-close img{
+    width: 100%;
+    height: auto;
+
+}
 @media screen and (max-width: 1399px) {
     .container{
         width: 1140px;
@@ -210,7 +219,7 @@ article {
         justify-content: space-between;
     }
 
-    .burger{
+    .burger-open{
         display: block;
     }
     .header_menu{
@@ -245,4 +254,31 @@ article {
         font-size: 85px;
         margin-top: 10px;
     }
+}
+
+.show_mobile_menu{
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.95);
+    margin: 0;
+    width: 100%;
+    padding: 30px 0 0 30px;
+    height: 100%;
+}
+
+.show_mobile_menu li{
+    margin-bottom: 20px;
+}
+
+.show_mobile_menu li a{
+    font-size: 36px;
+}
+
+.burger_active{
+    display: block;
+    position: fixed;
+    right: 15px;
+
 }
